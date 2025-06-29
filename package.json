@@ -1,0 +1,30 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:session": "node test-session-manager.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manojkumar7777/ALPHAZERO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/manojkumar7777/ALPHAZERO/issues"
+  },
+  "homepage": "https://github.com/manojkumar7777/ALPHAZERO#readme",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "winston": "^3.17.0"
+  }
+}
